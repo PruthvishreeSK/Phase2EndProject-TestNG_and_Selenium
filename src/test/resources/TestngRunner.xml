@@ -1,0 +1,24 @@
+<suite name="TestNG+Selenium" verbose="1" parallel="test" thread-count="2">
+
+	<test name="starhealth001">
+		
+		<parameter name="name1"  value="Pruthvishree"/>
+		<parameter name="mobile"  value="9110215006"/>
+		<parameter name="pincode"  value="577101"/>
+		
+		<classes>
+			<class name="starhealthtest.StarHealth001"></class>
+		</classes>
+	
+	</test>
+
+
+	<test name="starhealth002">
+
+		<classes>
+			<class name="starhealthtest.Starhealth002"></class>
+		</classes>
+
+	</test>
+
+</suite>
